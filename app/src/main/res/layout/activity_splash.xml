@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_gradient"
+    android:gravity="center">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <!-- رمز أو أيقونة معبرة عن التطبيق -->
+        <TextView
+            android:layout_width="84dp"
+            android:layout_height="84dp"
+            android:background="#2A2A3E"
+            android:gravity="center"
+            android:text="💰"
+            android:textSize="38sp"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- عنوان التطبيق -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Expense Tracker"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:letterSpacing="0.05"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:text="إدارة مصاريفك بكل سهولة"
+            android:textColor="#777788"
+            android:textSize="14sp"/>
+    </LinearLayout>
+
+</RelativeLayout>
